@@ -1,0 +1,50 @@
+/**快递查询的css文件**/
+.container{
+  margin:auto;
+  padding:10rpx;
+  align-items:center;
+}
+#welcome{
+  text-align: center;
+  size:50rpx;
+  margin:50px 50px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font:500;
+}
+#pick{
+  background:#fff;
+}
+.input{
+  background: #eee;
+  border:#ccc solid 1px;
+  font: blue 300;
+  border-radius: 50px;
+  padding:5px 15px 5px 15px;
+  margin:25px auto;
+  width:80%;
+  align-items:center;
+}
+#top{
+  flex-direction:column;
+  width:100%;
+}
+.searchbutton{
+  width:95%;
+  height:40px;
+  font:#000 small;
+  background:green;
+  margin:0px auto;
+}
+#resultshow{
+  margin:10px 5px 10px 5px;
+  border:#ccc solid 1px;
+  width:95%;
+  height:200px;
+  align-items:center;
+  overflow: scroll;
+}
+.selectPick{
+  
+  line-height:45px;
+  align-items: center;
+}

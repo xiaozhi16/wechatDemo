@@ -1,0 +1,26 @@
+<view class="container">
+  <text id='welcome'>欢迎来到快递查询界面</text>
+  <form bindsubmit='search'>
+  
+    <view id='top'>
+      <picker-view 
+      id="pick" 
+      indicator-style="height: 50px;"
+      style="width: 100%; height: 100px;"
+      value='zhongtong'
+      bindchange='bindChange'
+      >
+      <picker-view-column class="selectPick">
+        <view wx:for='{{packageType}}' wx:key="key" style="text-align:center;padding:auto;line-height=50px;align-item=center">{{item.name}}</view>
+      </picker-view-column>
+      </picker-view>
+      <input name='postid' type='text' class='input' value='73110295238515'></input>
+      <button class='searchbutton' form-type='submit' bindtap='bindtap'>查询</button>
+      
+    </view>
+    <view id='resultshow'>
+      <text wx:for='{{result}}' wx:key="key">[{{item.time}}]{{item.context+"\n"}}</text>
+    </view>
+  </form>
+
+</view>

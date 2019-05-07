@@ -1,0 +1,4 @@
+/* miniprogram/pages/Location/Location.wxss */
+.button{
+  background:green;
+}

@@ -1,0 +1,17 @@
+<!--miniprogram/pages/takePhoto/takePhoto.wxml-->
+<view>
+  <camera
+  mode='high'
+  device-position='{{direction}}'
+  flash='off'
+  binderror="error"
+  class="camera">
+  </camera>
+  <view class="bottom">
+    <image class="cameraTurnOff" src="{{cameraTurnOffIcon}}" bindtouchstart	="touchBegin" bindtouchend="touchEnd"></image>
+    <view class='takeBorder'>
+      <button style="background:{{buttoncolor}};" class="takeButton" bindtap="takeAndUpload"></button>
+    </view>
+    <image class="picture" src="cloud://calculator-upern.6361-calculator-upern/image/1557149168168.jpg" bindtap="goToSeePhoto"></image>
+  </view>
+</view>

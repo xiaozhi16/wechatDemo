@@ -1,0 +1,9 @@
+<!--miniprogram/pages/seePhoto/seePhoto.wxml-->
+<view class="title"><text style="margin:10rpx">显示图片</text></view>
+<view>
+  <view class="showcontainer">
+    <image class="showpicture" wx:for="{{fileID}}" src="{{item}}" ></image>
+</view>
+
+
+</view>

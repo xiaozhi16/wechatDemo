@@ -1,0 +1,26 @@
+/* miniprogram/pages/uploadphotos/uploadphotos.wxss */
+.welcome{
+  margin:10px;
+  text-align: center;
+  align-items: center;
+}
+.uploader,.photoUploader{
+  margin-top: 40rpx;
+  height: 120rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  text-align: center;
+}
+.uploader-text{
+  width: 100%;
+  line-height: 52px;
+  font-size: 34rpx;
+  color: #007aff;
+}

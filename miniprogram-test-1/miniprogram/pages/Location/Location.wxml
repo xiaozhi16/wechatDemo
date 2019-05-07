@@ -1,0 +1,3 @@
+<!--miniprogram/pages/Location/Location.wxml-->
+<button bindtap="getLocationName" class="button">点击获取当前的地理位置</button>
+<text>{{location}}</text>

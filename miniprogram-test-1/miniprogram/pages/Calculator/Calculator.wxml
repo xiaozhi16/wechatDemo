@@ -1,0 +1,22 @@
+<view class="container">
+<view>
+  <text>好吧现在请输入a和b的值</text>
+</view>
+ <form bindsubmit='submit'>
+  <view class="input-border">
+    <text>a:</text>
+    <input name='a' class='input' type='number'>b</input>
+  </view>
+  <view class="input-border">
+    <text>b:</text>
+    <input name='b' class='input' type='number'>a</input>
+  </view>
+  <view class="input-border">
+    <text style="line-height:auto">sum:</text>
+    <text >{{sum}}</text>
+  </view>
+  <view>
+    <button  form-type='submit' class='button'>计算</button>
+  </view>
+ </form>
+</view>
