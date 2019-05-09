@@ -2,12 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
     "pages/Location/Location",
     "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
     "pages/Calculator/Calculator",
     "pages/uploadphotos/uploadphotos",
     "pages/takePhoto/takePhoto",
