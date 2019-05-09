@@ -3,9 +3,20 @@ Page({
   data:{
     buttoncolor:"red",
     cameraTurnOffIcon:"./cameraTurnOff.png",
-    direction:"front"
+    direction:"front",
+    photoURL:""
   },
-  
+  onLoad:function(options){
+    var thisx = this;
+    wx.cloud.database().collection("calculator").doc("ce1079d8-18f9-4dc9-ba4f-da0ce097dfc7").get({
+      success: function (res) {
+        console.log(res.data.fileID[0]);
+        thisx.setData({
+          photoURL: res.data.fileID[0]
+        });
+      }
+    });
+  },
   takeAndUpload:function(){
     this.setData({ buttoncolor: "#800000"});
     this.setData({buttoncolor:"red"});
@@ -56,6 +67,15 @@ Page({
       }
     })
     this.data.buttoncolor="red";
+    var thisx = this;
+    wx.cloud.database().collection("calculator").doc("ce1079d8-18f9-4dc9-ba4f-da0ce097dfc7").get({
+      success: function (res) {
+        console.log(res.data.fileID[0]);
+        thisx.setData({
+          photoURL: res.data.fileID[0]
+        });
+      }
+    });
   },
   touchBegin:function(event){
     this.setData({

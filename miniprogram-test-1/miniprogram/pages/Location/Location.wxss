@@ -1,4 +1,10 @@
 /* miniprogram/pages/Location/Location.wxss */
+.container{
+  margin:100rpx auto;
+}
 .button{
   background:green;
+}
+.show{
+  margin:auto;
 }

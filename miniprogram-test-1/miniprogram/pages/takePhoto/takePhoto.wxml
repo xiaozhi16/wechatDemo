@@ -12,6 +12,6 @@
     <view class='takeBorder'>
       <button style="background:{{buttoncolor}};" class="takeButton" bindtap="takeAndUpload"></button>
     </view>
-    <image class="picture" src="cloud://calculator-upern.6361-calculator-upern/image/1557149168168.jpg" bindtap="goToSeePhoto"></image>
+    <image class="picture" src="{{photoURL}}" bindtap="goToSeePhoto"></image>
   </view>
 </view>

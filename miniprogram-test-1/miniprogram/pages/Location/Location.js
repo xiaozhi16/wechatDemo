@@ -1,22 +1,6 @@
 // miniprogram/pages/Location/Location.js
 Page({
 
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  },
-  /**
-   * 得到城市名称
-   */
   getLocationName:function(event){
     var thisx=this;
     //首先先拿到一个本地经纬度的数据

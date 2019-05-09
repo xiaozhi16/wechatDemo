@@ -9,7 +9,7 @@ exports.main = async (event, context) => {
   const db = cloud.database({ env: "calculator-upern" });
   return await db.collection("calculator").doc("ce1079d8-18f9-4dc9-ba4f-da0ce097dfc7").update({
     data: {
-      "fileID": db.command.push("cloud://calculator-upern.6361-calculator-upern/" + event.path)
+      "fileID": db.command.unshift("cloud://calculator-upern.6361-calculator-upern/" + event.path)
     },
   });
 
