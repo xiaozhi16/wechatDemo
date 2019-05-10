@@ -4,13 +4,13 @@
 
 
 #使用效果展示：
-	![Image text](https://github.com/xiaozhi16/wechatDemo/ScreenShot/S90510-200432.jpg)
+	![Image text](https://github.com/xiaozhi16/wechatDemo/blob/master/ScreenShot/S90510-200432.jpg)
 	
 	
-	![Image text](https://github.com/xiaozhi16/wechatDemo/ScreenShot/S90510-200513.jpg)
+	![Image text](https://github.com/xiaozhi16/wechatDemo/blob/master/ScreenShot/S90510-200513.jpg)
 	
 	
-	![Image text](https://github.com/xiaozhi16/wechatDemo/ScreenShot/S90510-200534.jpg)
+	![Image text](https://github.com/xiaozhi16/wechatDemo/blob/master/ScreenShot/S90510-200534.jpg)
 
 
 
