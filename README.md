@@ -2,6 +2,18 @@
 
 #version : 1.0.0
 
+
+#使用效果展示：
+	![Image text](https://github.com/xiaozhi16/wechatDemo/ScreenShot/S90510-200432.jpg)
+	
+	
+	![Image text](https://github.com/xiaozhi16/wechatDemo/ScreenShot/S90510-200513.jpg)
+	
+	
+	![Image text](https://github.com/xiaozhi16/wechatDemo/ScreenShot/S90510-200534.jpg)
+
+
+
 #功能：
   支持本地照片上传
   支持实时拍照上传
