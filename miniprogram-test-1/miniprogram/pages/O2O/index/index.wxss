@@ -1,0 +1,148 @@
+/* miniprogram/pages/O2O/index/index.wxss */
+/* 广告的样式 */
+page{
+  background: #f6f6f6;
+}
+.header{
+  position: fixed;
+  width:100%;
+  left:0rpx;
+  top:0rpx;
+  background-color: #ffffff;
+}
+.adversiment{
+  background-color: #ccc;
+  width: 99%;
+  height: 320rpx;
+  border: black 1px solid;
+  border-radius: 12rpx;
+  margin:auto;
+  padding:0rpx;
+}
+#circleContainer{
+  position:absolute;
+  top:300rpx;
+  left: 50%;
+  margin-left:-60rpx;
+  display: flex;
+  flex-direction: row;
+  width:-webkit-fit-content;
+}
+.circle{
+  background-color: #ffffff;
+  width:12rpx;
+  height:12rpx;
+  border-radius:50%;
+  margin: 0rpx 15rpx 0rpx 0rpx;
+}
+.selectedCircle{
+  background-color: #1296DB;
+  width:12rpx;
+  height:12rpx;
+  border-radius: 50%;
+  margin: 0rpx 15rpx 0rpx 0rpx;
+}
+.function{
+  background-color:#ffffff; 
+  width:100%;
+  height:150rpx;
+  border-top: black 1rpx solid;
+  border-bottom: black 1rpx solid;
+  margin:5rpx auto;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0rpx 0rpx 15rpx rgb(65, 65, 65);
+}
+.OneFunction{
+  position: relative;
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+  margin:auto;
+  display:flex;
+  background-color: #1296DB;
+  border:black 1rpx solid;
+}
+.container{
+  background-color: #ffffff;
+  position: relative;
+  margin:auto;
+}
+.icon{
+  position: relative;
+  width:60rpx;
+  height:60rpx;
+  margin:auto;
+}
+.font{
+  position: relative;
+  font-size: 20rpx;
+  margin:5rpx;
+}
+#message{
+  margin:auto;
+  margin-top:490rpx;
+}
+.messageCard{
+  font-size:25rpx;
+  display: flex;
+  flex-direction: row;
+  width:99%;
+  height:200rpx;
+  margin:auto;
+  margin-top:10rpx;
+  background-color:#f6f6f6;
+  border: #cccccc 1rpx solid;
+  border-radius: 12rpx;
+}
+.active_image{
+  height: 190rpx;
+  width:200rpx;
+  background-color:#ffffff;
+  margin:auto;
+  margin-left:5rpx;
+  border-radius: 12rpx;
+}
+.bottom{
+  font-size: 40rpx;
+  color:#cccccc;
+  width:100%;
+  margin:20rpx;
+  text-align: center;
+}
+.one_label{
+  flex-direction: column;
+  margin:auto;
+}
+.label{
+  padding:7rpx 5rpx;
+  border-radius:6rpx; 
+  margin-right: 26rpx;
+}
+.word{
+  display: flex;
+  flex-direction:row; 
+  margin:13rpx;
+}
+.content{
+  margin:auto;
+  width:300rpx;
+  overflow: hidden;
+}
+.status{
+  height:40rpx;
+  width:100rpx;
+  border-radius: 12rpx;
+  background-color:#1296DB;  
+  padding:7rpx;
+  margin-bottom:70rpx;
+}
+.button{
+  text-align: center;
+  line-height: 70rpx;
+  width:110rpx;
+  height:70rpx;
+  font-size:25rpx;
+  background-color: green;
+  border-radius:12rpx; 
+}

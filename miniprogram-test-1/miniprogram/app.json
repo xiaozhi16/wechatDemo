@@ -8,12 +8,16 @@
     "pages/uploadphotos/uploadphotos",
     "pages/takePhoto/takePhoto",
     "pages/packageSearch/packageSearch",
-    "pages/seePhoto/seePhoto"
+    "pages/seePhoto/seePhoto",
+    "pages/O2O/index/index",
+    "pages/O2O/mine/mine",
+    "pages/O2O/publish/publish",
+    "pages/O2O/showActive/showActive"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#1296DB",
     "navigationBarTitleText": "照相机小程序",
     "navigationBarTextStyle": "black"
   },
@@ -22,5 +26,31 @@
     "scope.userLocation": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
+  },
+  "tabBar": {
+    "color": "#CDCDCD",
+    "selectedColor": "#1296DB",
+    "backgroundColor": "#F6F6F6",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/O2O/index/index",
+        "text": "大厅",
+        "iconPath": "images/tabBar/fight_off.png",
+        "selectedIconPath": "images/tabBar/fight_on.png"
+      },
+      {
+        "pagePath": "pages/O2O/publish/publish",
+        "text": "发布",
+        "iconPath": "images/tabBar/ball_off.png",
+        "selectedIconPath": "images/tabBar/ball_on.png"
+      },
+      {
+        "pagePath": "pages/O2O/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabBar/mine_off.png",
+        "selectedIconPath": "images/tabBar/mine_on.png"
+      }
+    ]
   }
 }

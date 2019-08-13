@@ -81,5 +81,10 @@ Page({
     wx.navigateTo({
       url: '../packageSearch/packageSearch',
     })
+  },
+  goToO2O:function(){
+    wx.switchTab({
+      url: '../O2O/index/index',
+    })
   }
 })

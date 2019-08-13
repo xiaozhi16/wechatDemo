@@ -1,0 +1,163 @@
+<!--miniprogram/pages/O2O/index/index.wxml-->
+<view>
+  <view class="header">
+    <!-- 留出广告的位置 -->
+    <view class="adversiment">
+      <!-- 广告位置上的白点 -->
+      <view id="circleContainer">
+        <view class="circle">
+        </view>
+        <view class="circle">
+        </view>
+        <view class="selectedCircle">
+        </view>
+        <view class="circle">
+        </view>
+        <view class="circle">
+        </view>
+      </view>
+    </view>
+
+    <!--做功能界面或者是选项卡界面-->
+    <view class="function">
+      <view class="container">
+        <view class="OneFunction"> 
+          <image class="icon" src="/images/O2O/court.png"></image>
+        </view>
+        <view class="font">
+          <text>筛选场地</text>
+        </view>
+      </view>
+      <view class="container">
+        <view class="OneFunction">
+          <image class="icon" src="/images/O2O/basket.png"></image>
+        </view>
+        <view class="font">
+          <text>筛选时间</text>
+        </view>
+      </view>
+
+      <view class="container">
+        <view class="OneFunction">
+          <image style="width:70rpx;height:70rpx" class="icon" src="/images/O2O/player.png"></image>
+        </view>
+        <view class="font">
+          <text>筛选球员</text>
+        </view>
+      </view>
+      
+    </view>
+  </view>
+  <view id="message">
+    <view class="messageCard">
+      <!-- 活动图片 -->
+      <image class="active_image" src="/images/O2O/timg.jpg"></image>
+      <!-- 活动时间做成小标签的形式 -->
+      <view class="one_label">
+        <view class="word">
+          <view style="background-color:pink;" class="label">时间</view>
+          <view class="content">2019.12.6 6:00~12:00</view>
+        </view>
+        <view class="word">
+          <view style="background-color:greenyellow;" class="label">
+            场地
+          </view>
+          <view class="content">彬州新区</view>
+        </view>
+        <view class="word">
+          <view style="background-color:#1296DB" class="label">发起</view>
+          <view class="content">段鹏坤</view>
+        </view>    
+      </view>
+      <view class="last">
+        <!-- 正在进行 结束 未结束 -->
+        <view class="status">正在进行</view>
+        <!-- 参加 -->
+        <view class="button">参加</view>
+      </view>
+    </view>
+    <view class="messageCard">
+      <!-- 活动图片 -->
+      <image class="active_image" src="/images/O2O/timg.jpg"></image>
+      <!-- 活动时间做成小标签的形式 -->
+      <view class="one_label">
+        <view class="word">
+          <view style="background-color:pink;" class="label">时间</view>
+          <view class="content">2019.12.6 6:00~12:00</view>
+        </view>
+        <view class="word">
+          <view style="background-color:greenyellow;" class="label">
+            场地
+          </view>
+          <view class="content">彬州新区</view>
+        </view>
+        <view class="word">
+          <view style="background-color:#1296DB" class="label">发起</view>
+          <view class="content">段鹏坤</view>
+        </view>    
+      </view>
+      <view class="last">
+        <!-- 正在进行 结束 未结束 -->
+        <view class="status">正在进行</view>
+        <!-- 参加 -->
+        <view class="button">参加</view>
+      </view>
+    </view>
+    <view class="messageCard">
+      <!-- 活动图片 -->
+      <image class="active_image" src="/images/O2O/timg.jpg"></image>
+      <!-- 活动时间做成小标签的形式 -->
+      <view class="one_label">
+        <view class="word">
+          <view style="background-color:pink;" class="label">时间</view>
+          <view class="content">2019.12.6 6:00~12:00</view>
+        </view>
+        <view class="word">
+          <view style="background-color:greenyellow;" class="label">
+            场地
+          </view>
+          <view class="content">彬州新区</view>
+        </view>
+        <view class="word">
+          <view style="background-color:#1296DB" class="label">发起</view>
+          <view class="content">段鹏坤</view>
+        </view>    
+      </view>
+      <view class="last">
+        <!-- 正在进行 结束 未结束 -->
+        <view class="status">正在进行</view>
+        <!-- 参加 -->
+        <view class="button">参加</view>
+      </view>
+    </view>
+    <view class="messageCard">
+      <!-- 活动图片 -->
+      <image class="active_image" src="/images/O2O/timg.jpg"></image>
+      <!-- 活动时间做成小标签的形式 -->
+      <view class="one_label">
+        <view class="word">
+          <view style="background-color:pink;" class="label">时间</view>
+          <view class="content">2019.12.6 6:00~12:00</view>
+        </view>
+        <view class="word">
+          <view style="background-color:greenyellow;" class="label">
+            场地
+          </view>
+          <view class="content">彬州新区</view>
+        </view>
+        <view class="word">
+          <view style="background-color:#1296DB" class="label">发起</view>
+          <view class="content">段鹏坤</view>
+        </view>    
+      </view>
+      <view class="last">
+        <!-- 正在进行 结束 未结束 -->
+        <view class="status">正在进行</view>
+        <!-- 参加 -->
+        <view><view class="button">参加</view></view>
+      </view>
+    </view>  
+    <view class="bottom"><text>~已经到底部了呦~</text></view>
+  </view>
+</view>
+

@@ -1,0 +1,10 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#1296DB",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "O2O约球",
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  }
+}

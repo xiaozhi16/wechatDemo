@@ -37,5 +37,11 @@
       <text>快递查询</text>
     </view>
   </view>
+  <!--O2O约球-->
+  <view class="uploader">
+    <view class="uploader-text" bindtap="goToO2O">
+      <text>O2O约球</text>
+    </view>
+  </view>
 
 </view>
