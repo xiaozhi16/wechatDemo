@@ -1,10 +1,15 @@
 /**快递查询的css文件**/
+page{
+  width:100%;
+}
 .container{
+  width:100%;
   margin:auto;
-  padding:10rpx;
+  padding:0rpx;
   align-items:center;
 }
 #welcome{
+  width:100%;
   text-align: center;
   size:50rpx;
   margin:50px 50px;
@@ -12,24 +17,25 @@
   font:500;
 }
 #pick{
+  width:100%;
   background:#fff;
 }
 .input{
+  width:100%;
   background: #eee;
   border:#ccc solid 1px;
   font: blue 300;
   border-radius: 50px;
   padding:5px 15px 5px 15px;
   margin:25px auto;
-  width:80%;
   align-items:center;
 }
 #top{
-  flex-direction:column;
   width:100%;
+  flex-direction:column;
 }
 .searchbutton{
-  width:95%;
+  width:100%;
   height:40px;
   font:#000 small;
   background:green;
@@ -44,7 +50,7 @@
   overflow: scroll;
 }
 .selectPick{
-  
+  width:100%;
   line-height:45px;
   align-items: center;
 }

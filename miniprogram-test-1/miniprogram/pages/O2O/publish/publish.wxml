@@ -1,3 +1,26 @@
 <!--miniprogram/pages/O2O/publish/publish.wxml-->
-<view>
+<view class="container">
+  <form class="form">
+    <button class=""></button>
+    <textarea placeholder="请发出此次邀请感言吧..." class="textarea">
+    </textarea>
+    <view style="background-color:#ffffff;" bindtap="onSelectImage">
+      <image class="image_select" src="{{addImageSrc}}"></image>
+    </view>
+    <view>
+      <view class="time_selector"></view>
+    </view>
+    
+   <!-- <picker-view indicator-style="height: 50rpx;" value="{{value}}" bindchange="bindChange" class="pick_view">
+     <picker mode="date" class="picker">
+        <view>请选择日期</view>
+        <view>请选择开始时间</view>
+     </picker>
+     <picker class="picker" mode='time'>
+        <view>请注意场合</view>
+     </picker>
+    </picker-view> -->
+    <button style="background-color:#1296DB" type="submit">发布</button>
+  </form>
+  
 </view>

@@ -91,7 +91,7 @@ page{
   height:200rpx;
   margin:auto;
   margin-top:10rpx;
-  background-color:#f6f6f6;
+  background-color:#fafafa;
   border: #cccccc 1rpx solid;
   border-radius: 12rpx;
 }
